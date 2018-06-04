@@ -2,14 +2,18 @@
 - rustc --version && cargo --version
 - cargo test --all --verbose
 
-test:1.19:
+test:1.15:
   script: *test_script
-  image: rust:1.19
+  image: liuchong/rustup:1.15.1
 
 test:stable:
   script: *test_script
-  image: rust:latest
+  image: liuchong/rustup:stable
+
+test:beta:
+  script: *test_script
+  image: liuchong/rustup:beta
 
 test:nightly:
   script: *test_script
-  image: rustlang/rust:nightly
+  image: liuchong/rustup:nightly
