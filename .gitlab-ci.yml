@@ -1,6 +1,15 @@
-image: "rust:latest"
+.test_template: &test_script
+- rustc --version && cargo --version
+- cargo test --all --verbose
 
-test:cargo:
-  script:
-  - rustc --version && cargo --version      # Print version info for debugging
-  - cargo test --all --verbose
+test:1.19:
+  script: *test_script
+  image: rust:1.19
+
+test:stable:
+  script: *test_script
+  image: rust:latest
+
+test:nightly:
+  script: *test_script
+  image: rustlang/rust:nightly
