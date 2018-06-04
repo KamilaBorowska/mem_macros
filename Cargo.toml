@@ -2,7 +2,7 @@
 name = "mem_macros"
 version = "0.1.0"
 authors = ["Konrad Borowski <konrad@borowski.pw>"]
-repository = "https://github.com/xfix/mem_macros"
+repository = "https://gitlab.com/KonradBorowski/mem_macros"
 license = "MIT/Apache-2.0"
 description = "align_of and size_of as a macro, to avoid turbofish notation"
 keywords = ["no_std"]
@@ -11,7 +11,4 @@ documentation = "https://docs.rs/mem_macros"
 readme = "README.md"
 
 [badges]
-travis-ci = { repository = "xfix/mem_macros" }
-is-it-maintained-issue-resolution = { repository = "xfix/mem_macros" }
-is-it-maintained-open-issues = { repository = "xfix/mem_macros" }
 maintenance = { status = "actively-developed" }
