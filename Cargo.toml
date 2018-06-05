@@ -11,4 +11,5 @@ documentation = "https://docs.rs/mem_macros"
 readme = "README.md"
 
 [badges]
+gitlab = { repository = "KonradBorowski/mem_macros" }
 maintenance = { status = "actively-developed" }
