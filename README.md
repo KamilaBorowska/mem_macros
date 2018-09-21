@@ -4,7 +4,7 @@
 
 ## Examples
 
-```
+```rust
 #[macro_use]
 extern crate mem_macros;
 assert_eq!(1, size_of!(u8));
