@@ -1,6 +1,6 @@
 [package]
 name = "mem_macros"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Konrad Borowski <konrad@borowski.pw>"]
 repository = "https://gitlab.com/KonradBorowski/mem_macros"
 license = "MIT OR Apache-2.0"
